@@ -1,0 +1,17 @@
+{
+    "name": "php-kata-setup/php-kata-setup",
+    "description": "kata-setup",
+    "type": "project",
+    "license": "GPLv3",
+    "autoload": {
+        "psr-4": {
+            "PhpKataSetup\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}
