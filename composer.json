@@ -5,7 +5,8 @@
     "license": "GPLv3",
     "autoload": {
         "psr-4": {
-            "PhpKataSetup\\": "src/"
+            "PhpKataSetup\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     "require-dev": {
@@ -13,5 +14,8 @@
     },
     "require": {
         "php": "^8.2"
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit"
     }
 }
