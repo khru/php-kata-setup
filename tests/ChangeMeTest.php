@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 
 class ChangeMeTest extends TestCase
 {
-    function testChangeMe(): void
+    function test_change_me(): void
     {
         $changeMe = new ChangeMe();
 
