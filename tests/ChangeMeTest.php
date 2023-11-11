@@ -11,6 +11,7 @@ class ChangeMeTest extends TestCase
     function testChangeMe(): void
     {
         $changeMe = new ChangeMe();
-        self::assertSame(true, $changeMe->change());
+
+        self::assertTrue($changeMe->change());
     }
 }
