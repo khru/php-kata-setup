@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests;
+
 use PhpKataSetup\ChangeMe;
 use PHPUnit\Framework\TestCase;
 
