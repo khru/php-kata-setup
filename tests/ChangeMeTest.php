@@ -1,12 +1,17 @@
 <?php
+declare(strict_types=1);
+
+namespace Tests;
 
 use PhpKataSetup\ChangeMe;
 use PHPUnit\Framework\TestCase;
 
 class ChangeMeTest extends TestCase
 {
-    function testChangeMe() {
+    public function test_change_me(): void
+    {
         $changeMe = new ChangeMe();
-        self::assertSame(true, $changeMe->change());
+
+        self::assertTrue($changeMe->change());
     }
 }
